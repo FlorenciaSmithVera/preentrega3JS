@@ -1,0 +1,78 @@
+.titulo-bienvenida {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.instrucciones {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.ingresofac {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.numerofac {
+    margin: 5px;
+}
+
+.nombreprov {
+    margin: 5px;
+}
+
+.montofac {
+    margin: 5px;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fincarga {
+    margin: 5px;
+}
+
+.aceptarfac {
+    margin: 5px;
+}
+
+.tablageneral {
+    margin: 30px;
+}
+
+.ultimosbotones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagartodo {
+    margin: 5px;
+}
+
+.limpiartodo {
+    margin: 5px;
+}
+
+.divfinal {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divhisto {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+}
