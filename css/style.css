@@ -84,3 +84,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+.boton-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 45px;
+}
+
+.boton-home-bis {
+border-radius: 5px;
+border-width: 10px;
+}

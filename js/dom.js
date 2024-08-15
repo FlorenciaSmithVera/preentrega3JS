@@ -120,6 +120,9 @@ divhisto.append(historico)
 
 const finalizarcircuito = document.createElement("button")
 finalizarcircuito.className = "historico"
-finalizarcircuito.innerText = "Finalizar / Volver al Inicio"
 
+const volverhome = document.createElement("a")
+volverhome.href = "../index.html"
+volverhome.innerText = "Finalizar / Volver al Inicio"
 
+finalizarcircuito.append(volverhome)
