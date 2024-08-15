@@ -36,6 +36,7 @@ buttonverfc.addEventListener("click", (e) => {
     tablatit.append(cuerpodetabla)
     proveedores.forEach(el => { crearFactura(el) })
     cuerpo.append(ultimosbotones)
+    
 },{once: true})
 
 
@@ -58,6 +59,9 @@ buttonpagar.addEventListener("click", () => {
     final.append(mensajefinal)
     final.append(totalfinal)
     cuerpo.append(final)
+    final.append(finalizarcircuito)
+
+    
 },{once: true})
 
 botonlimpiar.addEventListener("click", () => { 

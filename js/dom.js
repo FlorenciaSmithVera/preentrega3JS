@@ -117,3 +117,9 @@ historico.className = "historico"
 historico.innerText = "Ver Historial de Carga"
 
 divhisto.append(historico)
+
+const finalizarcircuito = document.createElement("button")
+finalizarcircuito.className = "historico"
+finalizarcircuito.innerText = "Finalizar / Volver al Inicio"
+
+
